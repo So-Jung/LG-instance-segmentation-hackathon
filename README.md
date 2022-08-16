@@ -12,6 +12,7 @@
 2. Instance segmentation
   : Sementic segmentation과 비슷하지만, 같은 class 이더라도 따로 구분을 한다. 이것은 각 object의 위치를 정확히 식별하는 object detection의 접근법을 보여준다. 위와 같은 예시로 들자면, intance segmentation 같은 경우, "강아지1, 강아지2, 고양이1, 고양이2" 로 판별된다. 
 
+간단한 예시로, 하나의 이미지 안에 강아지 2마리, 고양이 2마리가 있다고 하자. semantic segmentation 같은 경우, "강아지, 강아지, 고양이, 고양이"를 판별한다. 더 나아가 instance segmentation은 "강아지1, 강아지2, 고양이1, 고양
 
 ![image](https://user-images.githubusercontent.com/106142512/184824975-ac292126-28ad-43d9-8abd-a4c98f541e8c.png)
 
