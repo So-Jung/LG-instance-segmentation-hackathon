@@ -1,8 +1,8 @@
 # LG 입자 형태 분석 대회
 
 ## 대회 개요 및 task
--> 데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것.
--> task: instance segmentation 
+데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것.
+task: instance segmentation 
 
 
 한 파일 당 최대 40MB.
