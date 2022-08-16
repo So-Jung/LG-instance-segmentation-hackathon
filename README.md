@@ -1,8 +1,9 @@
 # LG 입자 형태 분석 대회
 
 ## 대회 개요 및 task
-데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것으로 주 task는 instance segmentation이다. 
-The major task is an instance segmentation to detect the outline of floating particles in a fluid using a dataset.
+: 데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것으로 주 task는 instance segmentation이다. 
+
+: The major task is an instance segmentation to detect the outline of floating particles in a fluid using a dataset.
 
 #### instance segmentation vs. sementic segmentation
 : 대회 참여하기에 앞서, 대회의 주 task인 instance segmentation에 대해 알아보는 것이 중요했다. segmentation은 이미지의 pixel 단위로 각 영역을 분리하는 방법인데, 크게 두가지로 나뉜다.
@@ -13,6 +14,8 @@ The major task is an instance segmentation to detect the outline of floating par
 
 
 ![image](https://user-images.githubusercontent.com/106142512/184824975-ac292126-28ad-43d9-8abd-a4c98f541e8c.png)
+
+#### 
 
 ## Directory
 
