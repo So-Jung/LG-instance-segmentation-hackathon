@@ -24,7 +24,7 @@
   - training
 
 ### _data_
-- EDA.ipynb_
+- _EDA.ipynb_
 - dataset : image + annotation file
   - image : 프레임 단뒤로 추출된 유동입자 이미지.
   - annotation file : 각 입자의 윤곽을 레이블링한 데이터.
