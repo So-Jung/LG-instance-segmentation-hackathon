@@ -24,10 +24,11 @@
   - training
 
 ### _data_
-- EDA.ipynb
+- EDA.ipynb_
 - dataset : image + annotation file
   - image : 프레임 단뒤로 추출된 유동입자 이미지.
   - annotation file : 각 입자의 윤곽을 레이블링한 데이터.
+- _data augmentation_ : mm detection에서 제공하는 augmentation 라이브러리 경우, 이미지의 증강 보다는 기존의 이미지를 일정 확률로 바꿔주는 기능(flip, rotation, etc)을 한다(transform). 
  
 ### _ppt_
 - 정리 발표 자료
