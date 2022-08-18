@@ -41,7 +41,7 @@ Instance segmentation is one of the major types of image segmentation. Image seg
 
 __Image Segmentaion__
 
-(A) _Semantic Segmentation_
+(A) **_Semantic Segmentation_**
 
 Semantic segmentation is the task of classifying each pixel in an image from a predefined set of classes. Objects of the same class cannot be distinguished.        Therefore, if there are objects overlapping, it is considered as one.  
     
@@ -49,4 +49,22 @@ Semantic segmentation is the task of classifying each pixel in an image from a p
 
 Instance segmentation is a special form of image segmentation that deals with detecting instances of objects and demarcating their boundaries.
 It goes further from the semantic segmentation and distinguishes even if it is the same class. Therefore, the problem in the semantic segmentation, which does       not distinguish each object when the objects overlap, can be solved through instance segmentation. 
-    
+
+__MM detection__
+
+__MM dection__ is a Python toolbox built as a codebase exclusively for object detection and instance segmentation tasks.
+It is a built in a modular way with PyTorch implementation. 
+There are numerous methods available for object detection and instance segmentation collected from various well-acclaimed models.
+It enables quick training and inference with quality. 
+On the other hand, the toolbox contains weights for more than 200 pre-trainied networks, making the toolbox an instance solution in the object detection domain.
+
+MM detection is a Python toolbox built for object detection and instance segmentation tasks. 
+It enables quick training and inference with quality. 
+
+MM detection can be a powerful tool in __ ways:
+- 
+모델이 모듈화 되어 있어, 다양한 모델과 백본을 간편하게 자유자재로 적용시킬 수 있다.  
+- pytorch에서 제공하는 optimizer과 learning rate schedule을 적용시킬 수 있다. 
+- training speed is faster than other codebases, such as Detectron2 or SimpleDet since all basic bbox and mask operation run on GPUs.
+- it provides numerous pretrained models. 
+
