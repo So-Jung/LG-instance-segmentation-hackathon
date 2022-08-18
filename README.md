@@ -32,3 +32,16 @@
  
 ### _ppt_
 - 정리 발표 자료
+
+
+# LG Particle Instance Segmentation Hakathon
+
+The major task is "_instance segmentation_" to detect the outline of floating particles in a fluid using a dataset. 
+Instance segmentation is one of the major types of image segmentation. Image segmentation is the process of dividing an image into different regions based on the charactersitics of pixels to identify objects or boundaries to simplify an image and more efficiently analyze it. 
+
+(A) Semantic Segmentation
+    Semantic segmentation is the task of classifying each pixel in an image from a predefined set of classes. Objects of the same class cannot be distinguished.         Therefore, if there are objects overlapping, it is considered as one.  
+(B) Instance Segmentation
+    Instance segmentation is a special form of image segmentation that deals with detecting instances of objects and demarcating their boundaries.
+    It goes further from the semantic segmentation and distinguishes even if it is the same class. Therefore, the problem in the semantic segmentation, which does       not distinguish each object when the objects oberlap, can be solved through instance segmentation. 
+    
