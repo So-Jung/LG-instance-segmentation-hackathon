@@ -36,12 +36,12 @@
 
 # LG Particle Instance Segmentation Hakathon
 
-The major task is "_instance segmentation_" to detect the outline of floating particles in a fluid using a dataset. 
+The major task is **"_instance segmentation_"** to detect the outline of floating particles in a fluid using a dataset. 
 Instance segmentation is one of the major types of image segmentation. Image segmentation is the process of dividing an image into different regions based on the charactersitics of pixels to identify objects or boundaries to simplify an image and more efficiently analyze it. 
 
 __Image Segmentaion__
 
-(A) **_Semantic Segmentation_**
+(A) _Semantic Segmentation_
 
 Semantic segmentation is the task of classifying each pixel in an image from a predefined set of classes. Objects of the same class cannot be distinguished.        Therefore, if there are objects overlapping, it is considered as one.  
     
@@ -52,7 +52,7 @@ It goes further from the semantic segmentation and distinguishes even if it is t
 
 __MM detection__
 
-__MM dection__ is a Python toolbox built as a codebase exclusively for object detection and instance segmentation tasks.
+__MM detection__ is a Python toolbox built as a codebase exclusively for object detection and instance segmentation tasks.
 It is a built in a modular way with PyTorch implementation. 
 There are numerous methods available for object detection and instance segmentation collected from various well-acclaimed models.
 It enables quick training and inference with quality. 
