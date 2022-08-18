@@ -41,10 +41,12 @@ Instance segmentation is one of the major types of image segmentation. Image seg
 
 __Image Segmentaion__
 
-(A) Semantic Segmentation
+(A) _Semantic Segmentation_
+
     Semantic segmentation is the task of classifying each pixel in an image from a predefined set of classes. Objects of the same class cannot be distinguished.         Therefore, if there are objects overlapping, it is considered as one.  
     
-(B) Instance Segmentation
+(B) _Instance Segmentation_
+
     Instance segmentation is a special form of image segmentation that deals with detecting instances of objects and demarcating their boundaries.
     It goes further from the semantic segmentation and distinguishes even if it is the same class. Therefore, the problem in the semantic segmentation, which does       not distinguish each object when the objects oberlap, can be solved through instance segmentation. 
     
