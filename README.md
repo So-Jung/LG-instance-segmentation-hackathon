@@ -39,6 +39,8 @@
 The major task is "_instance segmentation_" to detect the outline of floating particles in a fluid using a dataset. 
 Instance segmentation is one of the major types of image segmentation. Image segmentation is the process of dividing an image into different regions based on the charactersitics of pixels to identify objects or boundaries to simplify an image and more efficiently analyze it. 
 
+__Image Segmentaion__
+
 (A) Semantic Segmentation
     Semantic segmentation is the task of classifying each pixel in an image from a predefined set of classes. Objects of the same class cannot be distinguished.         Therefore, if there are objects overlapping, it is considered as one.  
     
