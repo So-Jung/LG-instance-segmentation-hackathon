@@ -21,8 +21,9 @@
 ## Directory
 
 ### mmdetection
-  - training
-
+ - "mask scoring" folder 
+    - model: Mask Scoring R-CNN backbone: ResNeXt 101, ResNet stikes back, optimzer = Adadelta
+    - ms_rcnn_x101_64x4d_fpn_1x_coco.py 와 mask_scoring_config.py 두 파일을 
 ### _data_
 - _EDA.ipynb_
 - dataset : image + annotation file
