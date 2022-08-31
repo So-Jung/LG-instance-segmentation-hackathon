@@ -12,7 +12,7 @@
 2. Instance segmentation
   : Sementic segmentation과 비슷하지만, 같은 class 이더라도 따로 구분을 한다. 이것은 각 object의 위치를 정확히 식별하는 object detection의 접근법을 보여준다.
   
- 아래의 예시를 보면, semantic segmentation 경우 사람이라는 객체 구분은 없지만 사람의 위치를 인식하고 판별한다. 반면에, instance segmentation은 객체를 사람이라 인식하고, 같은 class이더라고 "사람1, 사람2, 사람3 등", 각 object의 위치를 정확히 식별한다. 
+ 아래의 예시를 보면, semantic segmentation 경우 사람이라는 객체 구분은 없지만 사람의 위치를 인식하고 판별한다. 반면에, instance segmentation은 객체를 사람이라 인식하고, 같은 class이더라도 "사람1, 사람2, 사람3 등", 각 object의 위치를 정확히 식별한다. 
  
 ![image](https://user-images.githubusercontent.com/106142512/184824975-ac292126-28ad-43d9-8abd-a4c98f541e8c.png)
 
@@ -21,9 +21,16 @@
 ## Directory
 
 ### mmdetection
- - "mask scoring" folder 
-    - model: Mask Scoring R-CNN backbone: ResNeXt 101, ResNet stikes back, optimzer = Adadelta
+ - "mask scoring rcnn" folder 
+    - model: Mask Scoring R-CNN /  backbone: ResNeXt 101, ResNet stikes back
+    - optimzer : Adadelta
+    
     - ms_rcnn_x101_64x4d_fpn_1x_coco.py 와 mask_scoring_config.py 두 파일을 
+    
+ - "cascade mask rcnn" folder    
+    - model: Cascade Mask R-CNN / backbone: GCNet, RegNet, PVT, Generalized Attention, ConvNeXt, HRNet
+    - optimizer: SGD, ASGD, Adadelta, Adam, AdamW, Nadam, Radam, Adagrad, Adamax, RMSprop
+    
 ### _data_
 - _EDA.ipynb_
 - dataset : image + annotation file
