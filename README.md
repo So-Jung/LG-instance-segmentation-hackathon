@@ -4,13 +4,9 @@
 : 데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것으로 주 task는 instance segmentation이다. 
 
 #### instance segmentation vs. sementic segmentation
-: 대회 참여하기에 앞서, 대회의 주 task인 instance segmentation에 대해 알아보는 것이 중요했다. segmentation은 이미지의 pixel 단위로 각 영역을 분리하는 방법인데, 크게 두가지로 나뉜다.
-1. Semantic segmentation 
-  : 한 이미지 내에 class의 위치를 인식(localization)하고, 판별(classification)하는 접근법이다.
-2. Instance segmentation
-  : Sementic segmentation과 비슷하지만, 같은 class 이더라도 따로 구분을 한다. 이것은 각 object의 위치를 정확히 식별하는 object detection의 접근법을 보여준다.
-  
- 아래의 예시를 보면, semantic segmentation 경우 사람이라는 객체 구분은 없지만 사람의 위치를 인식하고 판별한다. 반면에, instance segmentation은 객체를 사람이라 인식하고, 같은 class이더라도 "사람1, 사람2, 사람3 등", 각 object의 위치를 정확히 식별한다. 
+: 대회 참여하기에 앞서, 대회의 주 task인 instance segmentation에 대해 알아보는 것이 중요했다. segmentation은 이미지의 pixel 단위로 각 영역을 분리하는 방법인데, 크게 두가지로 나뉜다. Semantic segmentation은 한 이미지 내에 class의 위치를 인식(localization)하고, 판별(classification)하는 접근법이다. Instance segmentation은 Sementic segmentation과 비슷하지만, 같은 class 이더라도 따로 구분을 한다. 각 object의 위치를 정확히 식별하는 object detection의 접근법을 보여준다.
+
+  아래의 예시를 보면, semantic segmentation 경우 사람이라는 객체 구분은 없지만 사람의 위치를 인식하고 판별한다. 반면에, instance segmentation은 객체를 사람이라 인식하고, 같은 class이더라도 "사람1, 사람2, 사람3 등", 각 object의 위치를 정확히 식별한다. 
  
 ![image](https://user-images.githubusercontent.com/106142512/184824975-ac292126-28ad-43d9-8abd-a4c98f541e8c.png)
 
