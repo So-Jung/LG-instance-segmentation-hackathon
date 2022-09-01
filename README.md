@@ -14,7 +14,7 @@
 
 ## Directory
 
-### mmdetection
+### _mmdetection_
  - "mask scoring rcnn" folder 
     - model : Mask Scoring R-CNN /  backbone: ResNeXt 101, ResNet stikes back
     - optimzer : Adadelta
