@@ -3,8 +3,6 @@
 ## 대회 개요 및 task
 : 데이터셋을 활용해서 유체상의 떠다니는 유동입자의 윤곽을 검출하는 것으로 주 task는 instance segmentation이다. 
 
-: The major task is an instance segmentation to detect the outline of floating particles in a fluid using a dataset.
-
 #### instance segmentation vs. sementic segmentation
 : 대회 참여하기에 앞서, 대회의 주 task인 instance segmentation에 대해 알아보는 것이 중요했다. segmentation은 이미지의 pixel 단위로 각 영역을 분리하는 방법인데, 크게 두가지로 나뉜다.
 1. Semantic segmentation 
@@ -22,15 +20,15 @@
 
 ### mmdetection
  - "mask scoring rcnn" folder 
-    - model: Mask Scoring R-CNN /  backbone: ResNeXt 101, ResNet stikes back
+    - model : Mask Scoring R-CNN /  backbone: ResNeXt 101, ResNet stikes back
     - optimzer : Adadelta
-    
-    - ms_rcnn_x101_64x4d_fpn_1x_coco.py 와 mask_scoring_config.py 두 파일을 
+    - main file : ms_rcnn_x101_64x4d_fpn_1x_coco.py, config.py 
     
  - "cascade mask rcnn" folder    
-    - model: Cascade Mask R-CNN / backbone: GCNet, RegNet, PVT, Generalized Attention, ConvNeXt, HRNet
-    - optimizer: SGD, ASGD, Adadelta, Adam, AdamW, Nadam, Radam, Adagrad, Adamax, RMSprop
-    
+    - model : Cascade Mask R-CNN / backbone: GCNet, RegNet, PVT, Generalized Attention, ConvNeXt, HRNet
+    - optimizer : SGD, ASGD, Adadelta, Adam, AdamW, Nadam, Radam, Adagrad, Adamax, RMSprop
+    - main file : cascade_mask_rcnn_x101_64x4d_fpn_1x_coco.py, config.py
+
 ### _data_
 - _EDA.ipynb_
 - dataset : image + annotation file
