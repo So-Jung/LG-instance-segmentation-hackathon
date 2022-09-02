@@ -85,8 +85,6 @@ MM detection can be a powerful tool in 3 ways:
   - image : 프레임 단뒤로 추출된 유동입자 이미지.
   - annotation file : 각 입자의 윤곽을 레이블링한 데이터.
 - _data augmentation_ : mm detection에서 제공하는 augmentation 라이브러리 경우, 이미지의 증강 보다는 기존의 이미지를 일정 확률로 바꿔주는 기능(flip, rotation, etc)을 한다(transform). transform의 기능 보다는 이미지 증강이 성능 향상에 도움이 될 것 같아서 offline augmentation을 진행했다. 
-
+mm detection에서 제공하는 augmentation 라이브러리는 albumentation, auto augmentation, 
 ### _ppt_
 - 정리 발표 자료
-
-
